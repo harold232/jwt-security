@@ -21,7 +21,7 @@ import java.util.List;
 public class User implements UserDetails {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String firstname;
     private String lastname;
@@ -40,7 +40,7 @@ public class User implements UserDetails {
     public String getPassword() {
         return password;
     }
-
+    GIT
     @Override
     public String getUsername() {
         return email;
