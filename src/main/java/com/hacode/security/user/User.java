@@ -40,7 +40,7 @@ public class User implements UserDetails {
     public String getPassword() {
         return password;
     }
-    GIT
+
     @Override
     public String getUsername() {
         return email;
